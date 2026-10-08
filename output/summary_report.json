@@ -1,0 +1,132 @@
+{
+  "run": {
+    "started_at": "2026-10-08T06:09:01+00:00",
+    "finished_at": "2026-10-08T06:19:10+00:00",
+    "duration_seconds": 609.24,
+    "status": "success",
+    "settings": {
+      "books_start_url": "https://books.toscrape.com/",
+      "quotes_start_url": "https://quotes.toscrape.com/",
+      "sources": [
+        "books",
+        "quotes"
+      ],
+      "request_delay": 0.5,
+      "timeout": 10.0,
+      "max_retries": 3,
+      "backoff_factor": 1.0,
+      "user_agent": "ScrapingAssignmentBot/1.0 (+educational exercise; python-requests; respects rate limits)",
+      "max_pages": null,
+      "fetch_book_details": true,
+      "output_dir": "output",
+      "log_file": "logs/scraper.log"
+    }
+  },
+  "totals": {
+    "raw_records": 1100,
+    "cleaned_records": 1100,
+    "valid_records": 1100,
+    "rejected_records": 0,
+    "duplicate_records": 1,
+    "final_records": 1099
+  },
+  "sources": {
+    "books_toscrape": {
+      "status": "ok",
+      "error": null,
+      "pages_scraped": 50,
+      "pages_failed": 0,
+      "next_links_followed": 49,
+      "items_found": 1000,
+      "malformed_items": 0,
+      "first_page_url": "https://books.toscrape.com/",
+      "last_page_url": "https://books.toscrape.com/catalogue/page-50.html",
+      "stop_reason": "no_next_link",
+      "failed_urls": [],
+      "detail_pages_fetched": 1000,
+      "detail_pages_failed": 0,
+      "raw_records": 1000,
+      "rejected_records": 0,
+      "duplicate_records": 1,
+      "final_records": 999
+    },
+    "quotes_toscrape": {
+      "status": "ok",
+      "error": null,
+      "pages_scraped": 10,
+      "pages_failed": 0,
+      "next_links_followed": 9,
+      "items_found": 100,
+      "malformed_items": 0,
+      "first_page_url": "https://quotes.toscrape.com/",
+      "last_page_url": "https://quotes.toscrape.com/page/10/",
+      "stop_reason": "no_next_link",
+      "failed_urls": [],
+      "raw_records": 100,
+      "rejected_records": 0,
+      "duplicate_records": 0,
+      "final_records": 100
+    }
+  },
+  "rejection_reasons": {},
+  "duplicates": {
+    "total": 1,
+    "by_source": {
+      "books_toscrape": 1
+    },
+    "strategy": {
+      "books_toscrape": "sha256(source | normalised title)",
+      "quotes_toscrape": "sha256(source | normalised author | first 80 chars of normalised quote)",
+      "normalisation": "casefold, strip accents, punctuation/symbols -> space, collapse whitespace"
+    }
+  },
+  "reconciliation": {
+    "formula": "raw_records == rejected_records + duplicate_records + final_records",
+    "balanced": true,
+    "per_source_balanced": {
+      "books_toscrape": true,
+      "quotes_toscrape": true
+    }
+  },
+  "data_quality": {
+    "empty_fields_in_final_dataset": {
+      "books_toscrape": {
+        "source": 0,
+        "source_url": 0,
+        "name_or_title": 0,
+        "category": 0,
+        "price": 0,
+        "rating": 0,
+        "author": 999,
+        "author_url": 999,
+        "tags": 999,
+        "description": 2,
+        "scraped_at": 0
+      },
+      "quotes_toscrape": {
+        "source": 0,
+        "source_url": 0,
+        "name_or_title": 0,
+        "category": 100,
+        "price": 100,
+        "rating": 100,
+        "author": 0,
+        "author_url": 0,
+        "tags": 3,
+        "description": 100,
+        "scraped_at": 0
+      }
+    }
+  },
+  "outputs": {
+    "final_dataset": "output/final_dataset.csv",
+    "summary_report": "output/summary_report.json",
+    "rejected_records": "output/rejected_records.csv",
+    "duplicates": "output/duplicates.csv",
+    "log_file": "logs/scraper.log"
+  },
+  "http": {
+    "requests_made": 1060,
+    "failed_requests": 0
+  }
+}

@@ -1,0 +1,78 @@
+2026-10-08 11:39:01,571 | INFO     | pipeline | Pipeline started (sources: books, quotes)
+2026-10-08 11:39:01,572 | INFO     | pipeline | === Source start: books_toscrape ===
+2026-10-08 11:39:01,572 | INFO     | scrapers.books_toscrape | Starting books_toscrape at https://books.toscrape.com/
+2026-10-08 11:39:13,804 | INFO     | scrapers.books_toscrape | Scraped page 1 (https://books.toscrape.com/): 20 records
+2026-10-08 11:39:24,689 | INFO     | scrapers.books_toscrape | Scraped page 2 (https://books.toscrape.com/catalogue/page-2.html): 20 records
+2026-10-08 11:39:35,580 | INFO     | scrapers.books_toscrape | Scraped page 3 (https://books.toscrape.com/catalogue/page-3.html): 20 records
+2026-10-08 11:39:47,423 | INFO     | scrapers.books_toscrape | Scraped page 4 (https://books.toscrape.com/catalogue/page-4.html): 20 records
+2026-10-08 11:39:58,796 | INFO     | scrapers.books_toscrape | Scraped page 5 (https://books.toscrape.com/catalogue/page-5.html): 20 records
+2026-10-08 11:40:10,249 | INFO     | scrapers.books_toscrape | Scraped page 6 (https://books.toscrape.com/catalogue/page-6.html): 20 records
+2026-10-08 11:40:21,505 | INFO     | scrapers.books_toscrape | Scraped page 7 (https://books.toscrape.com/catalogue/page-7.html): 20 records
+2026-10-08 11:40:33,362 | INFO     | scrapers.books_toscrape | Scraped page 8 (https://books.toscrape.com/catalogue/page-8.html): 20 records
+2026-10-08 11:40:44,587 | INFO     | scrapers.books_toscrape | Scraped page 9 (https://books.toscrape.com/catalogue/page-9.html): 20 records
+2026-10-08 11:40:57,636 | INFO     | scrapers.books_toscrape | Scraped page 10 (https://books.toscrape.com/catalogue/page-10.html): 20 records
+2026-10-08 11:41:11,114 | INFO     | scrapers.books_toscrape | Scraped page 11 (https://books.toscrape.com/catalogue/page-11.html): 20 records
+2026-10-08 11:41:23,367 | INFO     | scrapers.books_toscrape | Scraped page 12 (https://books.toscrape.com/catalogue/page-12.html): 20 records
+2026-10-08 11:41:34,478 | INFO     | scrapers.books_toscrape | Scraped page 13 (https://books.toscrape.com/catalogue/page-13.html): 20 records
+2026-10-08 11:41:45,906 | INFO     | scrapers.books_toscrape | Scraped page 14 (https://books.toscrape.com/catalogue/page-14.html): 20 records
+2026-10-08 11:41:59,827 | INFO     | scrapers.books_toscrape | Scraped page 15 (https://books.toscrape.com/catalogue/page-15.html): 20 records
+2026-10-08 11:42:10,932 | INFO     | scrapers.books_toscrape | Scraped page 16 (https://books.toscrape.com/catalogue/page-16.html): 20 records
+2026-10-08 11:42:22,946 | INFO     | scrapers.books_toscrape | Scraped page 17 (https://books.toscrape.com/catalogue/page-17.html): 20 records
+2026-10-08 11:42:35,897 | INFO     | scrapers.books_toscrape | Scraped page 18 (https://books.toscrape.com/catalogue/page-18.html): 20 records
+2026-10-08 11:42:47,948 | INFO     | scrapers.books_toscrape | Scraped page 19 (https://books.toscrape.com/catalogue/page-19.html): 20 records
+2026-10-08 11:42:58,912 | INFO     | scrapers.books_toscrape | Scraped page 20 (https://books.toscrape.com/catalogue/page-20.html): 20 records
+2026-10-08 11:43:10,268 | INFO     | scrapers.books_toscrape | Scraped page 21 (https://books.toscrape.com/catalogue/page-21.html): 20 records
+2026-10-08 11:43:21,681 | INFO     | scrapers.books_toscrape | Scraped page 22 (https://books.toscrape.com/catalogue/page-22.html): 20 records
+2026-10-08 11:43:32,809 | INFO     | scrapers.books_toscrape | Scraped page 23 (https://books.toscrape.com/catalogue/page-23.html): 20 records
+2026-10-08 11:43:43,963 | INFO     | scrapers.books_toscrape | Scraped page 24 (https://books.toscrape.com/catalogue/page-24.html): 20 records
+2026-10-08 11:43:55,344 | INFO     | scrapers.books_toscrape | Scraped page 25 (https://books.toscrape.com/catalogue/page-25.html): 20 records
+2026-10-08 11:44:09,259 | INFO     | scrapers.books_toscrape | Scraped page 26 (https://books.toscrape.com/catalogue/page-26.html): 20 records
+2026-10-08 11:44:20,627 | INFO     | scrapers.books_toscrape | Scraped page 27 (https://books.toscrape.com/catalogue/page-27.html): 20 records
+2026-10-08 11:44:31,547 | INFO     | scrapers.books_toscrape | Scraped page 28 (https://books.toscrape.com/catalogue/page-28.html): 20 records
+2026-10-08 11:44:46,754 | INFO     | scrapers.books_toscrape | Scraped page 29 (https://books.toscrape.com/catalogue/page-29.html): 20 records
+2026-10-08 11:45:00,832 | INFO     | scrapers.books_toscrape | Scraped page 30 (https://books.toscrape.com/catalogue/page-30.html): 20 records
+2026-10-08 11:45:12,662 | INFO     | scrapers.books_toscrape | Scraped page 31 (https://books.toscrape.com/catalogue/page-31.html): 20 records
+2026-10-08 11:45:23,849 | INFO     | scrapers.books_toscrape | Scraped page 32 (https://books.toscrape.com/catalogue/page-32.html): 20 records
+2026-10-08 11:45:36,407 | INFO     | scrapers.books_toscrape | Scraped page 33 (https://books.toscrape.com/catalogue/page-33.html): 20 records
+2026-10-08 11:45:47,373 | INFO     | scrapers.books_toscrape | Scraped page 34 (https://books.toscrape.com/catalogue/page-34.html): 20 records
+2026-10-08 11:45:59,920 | INFO     | scrapers.books_toscrape | Scraped page 35 (https://books.toscrape.com/catalogue/page-35.html): 20 records
+2026-10-08 11:46:11,139 | INFO     | scrapers.books_toscrape | Scraped page 36 (https://books.toscrape.com/catalogue/page-36.html): 20 records
+2026-10-08 11:46:21,767 | INFO     | scrapers.books_toscrape | Scraped page 37 (https://books.toscrape.com/catalogue/page-37.html): 20 records
+2026-10-08 11:46:33,133 | INFO     | scrapers.books_toscrape | Scraped page 38 (https://books.toscrape.com/catalogue/page-38.html): 20 records
+2026-10-08 11:46:44,722 | INFO     | scrapers.books_toscrape | Scraped page 39 (https://books.toscrape.com/catalogue/page-39.html): 20 records
+2026-10-08 11:46:56,787 | INFO     | scrapers.books_toscrape | Scraped page 40 (https://books.toscrape.com/catalogue/page-40.html): 20 records
+2026-10-08 11:47:09,253 | INFO     | scrapers.books_toscrape | Scraped page 41 (https://books.toscrape.com/catalogue/page-41.html): 20 records
+2026-10-08 11:47:22,614 | INFO     | scrapers.books_toscrape | Scraped page 42 (https://books.toscrape.com/catalogue/page-42.html): 20 records
+2026-10-08 11:47:34,644 | INFO     | scrapers.books_toscrape | Scraped page 43 (https://books.toscrape.com/catalogue/page-43.html): 20 records
+2026-10-08 11:47:45,865 | INFO     | scrapers.books_toscrape | Scraped page 44 (https://books.toscrape.com/catalogue/page-44.html): 20 records
+2026-10-08 11:47:56,769 | INFO     | scrapers.books_toscrape | Scraped page 45 (https://books.toscrape.com/catalogue/page-45.html): 20 records
+2026-10-08 11:48:08,944 | INFO     | scrapers.books_toscrape | Scraped page 46 (https://books.toscrape.com/catalogue/page-46.html): 20 records
+2026-10-08 11:48:19,859 | INFO     | scrapers.books_toscrape | Scraped page 47 (https://books.toscrape.com/catalogue/page-47.html): 20 records
+2026-10-08 11:48:31,681 | INFO     | scrapers.books_toscrape | Scraped page 48 (https://books.toscrape.com/catalogue/page-48.html): 20 records
+2026-10-08 11:48:47,174 | INFO     | scrapers.books_toscrape | Scraped page 49 (https://books.toscrape.com/catalogue/page-49.html): 20 records
+2026-10-08 11:49:02,381 | INFO     | scrapers.books_toscrape | Scraped page 50 (https://books.toscrape.com/catalogue/page-50.html): 20 records
+2026-10-08 11:49:02,383 | INFO     | scrapers.books_toscrape | Finished books_toscrape: 50 pages, 1000 raw records (stop reason: no_next_link)
+2026-10-08 11:49:02,383 | INFO     | pipeline | === Source end: books_toscrape (ok, 1000 raw records) ===
+2026-10-08 11:49:02,383 | INFO     | pipeline | === Source start: quotes_toscrape ===
+2026-10-08 11:49:02,383 | INFO     | scrapers.quotes_toscrape | Starting quotes_toscrape at https://quotes.toscrape.com/
+2026-10-08 11:49:04,213 | INFO     | scrapers.quotes_toscrape | Scraped page 1 (https://quotes.toscrape.com/): 10 records
+2026-10-08 11:49:04,752 | INFO     | scrapers.quotes_toscrape | Scraped page 2 (https://quotes.toscrape.com/page/2/): 10 records
+2026-10-08 11:49:05,287 | INFO     | scrapers.quotes_toscrape | Scraped page 3 (https://quotes.toscrape.com/page/3/): 10 records
+2026-10-08 11:49:05,820 | INFO     | scrapers.quotes_toscrape | Scraped page 4 (https://quotes.toscrape.com/page/4/): 10 records
+2026-10-08 11:49:06,351 | INFO     | scrapers.quotes_toscrape | Scraped page 5 (https://quotes.toscrape.com/page/5/): 10 records
+2026-10-08 11:49:06,884 | INFO     | scrapers.quotes_toscrape | Scraped page 6 (https://quotes.toscrape.com/page/6/): 10 records
+2026-10-08 11:49:08,361 | INFO     | scrapers.quotes_toscrape | Scraped page 7 (https://quotes.toscrape.com/page/7/): 10 records
+2026-10-08 11:49:09,153 | INFO     | scrapers.quotes_toscrape | Scraped page 8 (https://quotes.toscrape.com/page/8/): 10 records
+2026-10-08 11:49:09,687 | INFO     | scrapers.quotes_toscrape | Scraped page 9 (https://quotes.toscrape.com/page/9/): 10 records
+2026-10-08 11:49:10,216 | INFO     | scrapers.quotes_toscrape | Scraped page 10 (https://quotes.toscrape.com/page/10/): 10 records
+2026-10-08 11:49:10,217 | INFO     | scrapers.quotes_toscrape | Finished quotes_toscrape: 10 pages, 100 raw records (stop reason: no_next_link)
+2026-10-08 11:49:10,217 | INFO     | pipeline | === Source end: quotes_toscrape (ok, 100 raw records) ===
+2026-10-08 11:49:10,219 | INFO     | pipeline | Cleaning 1100 raw records
+2026-10-08 11:49:10,708 | INFO     | pipeline | Validating 1100 cleaned records
+2026-10-08 11:49:10,717 | INFO     | pipeline | Validation: 1100 valid, 0 rejected
+2026-10-08 11:49:10,717 | INFO     | pipeline | Deduplicating 1100 valid records
+2026-10-08 11:49:10,732 | INFO     | pipeline | Duplicate removed: 'The Star-Touched Queen' (https://books.toscrape.com/catalogue/the-star-touched-queen_642/index.html) duplicates https://books.toscrape.com/catalogue/the-star-touched-queen_764/index.html
+2026-10-08 11:49:10,732 | INFO     | pipeline | Deduplication: 1099 unique, 1 duplicates
+2026-10-08 11:49:10,787 | INFO     | pipeline | Wrote 1099 records to C:\Realisieren\scraping_assignment\output\final_dataset.csv
+2026-10-08 11:49:10,795 | INFO     | pipeline | Wrote summary to C:\Realisieren\scraping_assignment\output\summary_report.json
+2026-10-08 11:49:10,795 | INFO     | pipeline | Pipeline finished with status success in 609.2s: raw=1100 rejected=0 duplicates=1 final=1099
